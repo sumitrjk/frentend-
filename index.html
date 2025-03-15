@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   Sundown website </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+ <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+   
+       <div class="fixed-image">
+       
+       </div>
+    <div class="main">
+        <div class="footer">
+            <div class="footer-div"></div>
+            <div class="footer-bottom">
+                <h1> SUNDOWN </h1>
+            </div>
+        </div>
+       
+        <div class="page-1">
+
+            <nav>
+               
+           
+                <!-- <img  class= "page-img-1" src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" ></img> -->
+               <img class="page-img-1" src="data:image/jpeg;base64,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">
+                
+               <div class="nav-part-1">
+
+                   
+
+                    <h4 ><a hef="#">Work</a></h4>
+                   <h4 ><a hef="#">Studio</a></h4>
+                    <h4 ><a hef="#">Contact</a></h4>
+                 </div>
+
+            </nav>
+
+            <div class="center">
+                <div class="left">
+                    <h3>
+                        Sundown is a multi-disciplinary<br>studio focused on creating<br>unique, end-to-end experiences<br>and environments.
+                    </h3>
+                  
+                </div>
+                <div class="right">
+                    <h2> SPACES <br>
+                        THAT <br>
+                        INSPIRE <br>
+                        </h2>
+                </div>
+            </div>
+            <div class="hero-shape">
+                <div class="hero-shape1"></div>
+                <div class="hero-shape2"></div>
+                <div class="hero-shape3"></div>
+            </div>
+            <video  autoplay loop muted src="./video.mp4"></video>
+        </div>
+
+        <div id="page-2">
+
+            <div class="moving-text">
+        <div class="con">
+            <div class="gola"></div>
+            <h1> ENVIRONMENTS </h1>
+            <div class="gola"></div>
+            <h1> CONTENT</h1>
+            <div class="gola"></div>
+            <h1>EXPERIENCES </h1>
+            <div class="gola"></div>
+        </div>
+        <div class="con">
+            <h1> ENVIRONMENTS </h1>
+            <div class="gola"></div>
+            <h1>CONTENT </h1>
+            <div class="gola"></div>
+            <h1> EXPERIENCES</h1>
+            <div class="gola"></div>
+            
+        </div>
+        <div class="con">
+            <h1> ENVIRONMENTS </h1>
+            <div class="gola"></div>
+            <h1>CONTENT </h1>
+            <div class="gola"></div>
+            <h1> EXPERIENCES</h1>
+            <div class="gola"></div>
+            </div>
+        </div>
+    
+
+    <div class="page-bottom">
+
+        <div class="anime"></div>
+        <div class="anime1"></div>
+        <div class="left1">
+            <h1> We are a group of design-<br> driven, goal-focused creators,<br> producers, and designers who<br>believe that the details make all<br> the difference.</h1>
+        </div>
+        <div class="left2">
+          
+           <img src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d1_Holding_thumb-p-500.jpg" alt="">
+           <p>We love to create, we love to solve, we love <br>to collaborate, and we love to turn amazing<br> ideas into reality. We’re here to partner with <br>you through every step of the process and <br>know that relationships are the most <br>important things we build.<br></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="page-3">
+        <div id="elem-container">
+        <div id="box-1">
+           
+            <div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1721985803589-418d2d337acf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D">
+                <div class="overley"></div>
+                
+                  <h1> Makers Studio HOI</h1>
+            </div>
+            <div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1712933121311-dcdc41d9fb17?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D">
+                <div class="overley"></div>
+                <h1> 
+                    50th Anniversary</h1>
+          </div>
+          <div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1731501020024-4c5b02cebb71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8NDN8fHxlbnwwfHx8fHw%3D">
+            <div class="overley"></div>
+            <h1> 
+                NYFW Popup</h1>
+      </div>
+      <div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1687139217023-1370817a6ae4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8NTh8fHxlbnwwfHx8fHw%3D">
+        <div class="overley"></div>
+        <h1> 
+            Air Force 1 2021</h1>
+  </div>
+  <div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1712852503923-e37c86a3bb32?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8NjZ8fHxlbnwwfHx8fHw%3D">
+    <div class="overley"></div>
+    <h1> 
+        SOHO NYC</h1>
+</div>
+<div class="text-box" data-image="https://plus.unsplash.com/premium_photo-1738067044357-0b9c92242572?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8ODh8fHxlbnwwfHx8fHw%3D">
+    <div class="overley"></div>
+    <h1> 
+        SOHO 2023</h1>
+</div>
+<div class="text-box" data-image="https://images.unsplash.com/file-1720553250263-3b4f25a93c9cimage?w=416&dpr=2&auto=format&fit=crop&q=60">
+    <div class="overley"></div>
+    <h1> 
+        
+Play New Kidvision</h1>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="page-4">
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1736855719599-c0298b8faf95?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyMXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHx8"></div> 
+        
+
+            <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1741471884167-a2b08fb14a3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"></div>
+
+
+
+
+
+
+          <div class="swiper-slide"><img src="https://plus.unsplash.com/premium_photo-1741629493418-260375b7338b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8cVBZc0R6dkpPWWN8fGVufDB8fHx8fA%3D%3D">     </div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1741514374526-8bc710b6b312?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDl8cVBZc0R6dkpPWWN8fGVufDB8fHx8fA%3D%3D"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1740686545460-8aa60a215bb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1740475339769-664748d1193e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIzfHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1740386072835-938733c974e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI4fHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1739490641520-fdcd56d303f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ5fHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1730808497875-278a68ccbc4b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwNHxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHx8"></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1730025855696-d83fb722bcf3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwOXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHx8"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div> 
+</div>
+<div class="page-5"></div>
+</div>
+
+    
+
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script  src="script.js"></script>
+</body>
+</html>
